@@ -1,0 +1,5 @@
+{
+  "watch": ["api"],
+  "ext": "js,json",
+  "exec": "node --env-file=.env api/index.js"
+}
