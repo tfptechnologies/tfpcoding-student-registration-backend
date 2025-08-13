@@ -16,7 +16,7 @@ export async function getPaymentLinkHandler(req, res) {
     }
 
     const paymentLink = await razorpay.paymentLink.create({
-      amount: 4900,
+      amount: 2100,
       customer: {
         name: result.data.customer_name,
         contact: result.data.customer_contact.toString(),
