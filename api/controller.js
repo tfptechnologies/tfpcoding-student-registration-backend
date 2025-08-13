@@ -26,7 +26,7 @@ export async function getPaymentLinkHandler(req, res) {
       currency: "INR",
       callback_url: `${SERVER_URL}/payment-confirmation`,
       callback_method: "get",
-      description: "Student registrations fees",
+      description: "Student Registration Fees",
       notify: {
         email: true,
       },
